@@ -22,6 +22,10 @@
 			this.$api.getUserInfo({
 				userame: 'ooooo'
 			}).then(res => {})
+			this.$api.postlogin({
+				name:'22',
+				password:'33'
+			}).then(res=>{})
 		},
 		methods: {
 			to() {

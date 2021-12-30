@@ -7,8 +7,18 @@ function getUserInfo(params) {
         params
     })
 }
-
+function postlogin(data){
+    return axios({
+        headers:{
+            'Content-Type':'application/x-www-form-urlencoded'
+        },
+        url:'/service/user/login',
+        method:"post",
+        data
+    })
+}
 export default{
-    getUserInfo
+    getUserInfo,
+    postlogin
 }
 
