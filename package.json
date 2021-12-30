@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "test": "vue-cli-service build --mode test"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -18,7 +19,10 @@
     "@vue/cli-plugin-vuex": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "@vue/compiler-sfc": "^3.0.0",
+    "axios": "^0.24.0",
     "less": "^3.0.4",
-    "less-loader": "^5.0.0"
+    "less-loader": "^5.0.0",
+    "postcss-px-to-viewport": "^1.1.0",
+    "vant": "^3.3.7"
   }
 }
