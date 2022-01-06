@@ -36,6 +36,7 @@ export default function axiosSerivce(options){
                     Toast.fail(response.msg)
                     return
                 }
+                return Promise.resolve(response)
             },
             err=>{
                 if(!err.response){
